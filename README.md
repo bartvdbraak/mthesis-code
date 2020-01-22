@@ -3,7 +3,7 @@ This repository represents the codebase for Machine Learning and Data Science ex
 
 ## Instructions
 
-#### Installing Dependencies
+#### 1. Installing Dependencies
 
 ##### Global installation
 If you want to install the dependencies globally or are already sourced into your desired environment.
@@ -15,3 +15,6 @@ If you are using Anaconda as environment manager for Python.
 ```
 conda create --name myenv --file spec-file.txt
 ```
+
+#### 2. Running the python notebook
+
