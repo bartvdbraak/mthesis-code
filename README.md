@@ -12,8 +12,16 @@ pip install requirements.txt
 ```
 ##### Anaconda
 If you are using Anaconda as environment manager for Python.
+
+###### CPU-Only
 ```
-conda create --name myenv --file spec-file.txt
+conda create pytorch torchvision cpuonly -c pytorch
+```
+
+###### Cuda accelerated (recommended)
+
+```
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 ```
 
 #### 2. Running the python notebook
