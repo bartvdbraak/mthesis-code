@@ -3,7 +3,7 @@ import librosa
 import os
 import csv
 
-PATH = os.getcwd() + '/dataset'
+PATH = os.path.dirname(os.path.abspath(__file__)) + '/dataset'
 PATH_RECORDINGS = PATH + '/RECOLA-Audio-recordings/'
 PATH_TIMINGS = PATH + '/RECOLA-Audio_timings/'
 PATH_CUTS = PATH + '/RECOLA-Audio_cuts/'

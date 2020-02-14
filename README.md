@@ -8,7 +8,7 @@ This repository represents the codebase for Machine Learning and Data Science ex
 ##### Global installation
 If you want to install the dependencies globally or are already sourced into your desired environment.
 ```
-pip install requirements.txt
+conda create pyml36 librosa
 ```
 ##### Anaconda
 If you are using Anaconda as environment manager for Python.
